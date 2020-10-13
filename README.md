@@ -1,20 +1,20 @@
 <!--
  * @Author: Drswith
  * @Date: 2020-10-13 10:41:34
- * @LastEditTime: 2020-10-13 10:54:21
- * @LastEditors: Drswith
+ * @LastEditTime: 2020-10-13 12:06:20
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \node-red-contrib-crypto-js-plus\README.md
 -->
 # notice
 This repo is forked from https://github.com/baumblatt/node-red-contrib-crypto-js
-And fixed sha1 algorithm at Digest Node
+And fixed sha1 algorithm at Digest Node(See https://github.com/baumblatt/node-red-contrib-crypto-js/issues/7)
 
-# node-red-contrib-crypto-js
+# node-red-contrib-crypto-js-plus
 Node-RED nodes using CryptoJS to encrypt and decrypt messages
 
 # Install
-npm install node-red-contrib-crypto-js
+npm install node-red-contrib-crypto-js-plus
 
 # Sample Flows
 ![SampleFlows](samples/flows.jpg)
