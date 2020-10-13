@@ -1,0 +1,34 @@
+{
+  "name": "node-red-contrib-crypto-js-plus",
+  "version": "0.1.9",
+  "description": "Node-RED nodes using CryptoJS to encrypt and decrypt messages",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drswith/node-red-contrib-crypto-js-plus.git"
+  },
+  "scripts": {
+    "test": "node-red"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "Drswith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Drswith/node-red-contrib-crypto-js-plus/issues"
+  },
+  "homepage": "https://github.com/Drswith/node-red-contrib-crypto-js-plus#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "node-red": {
+    "nodes": {
+      "encrypt": "cryptojs/encrypt.js",
+      "decrypt": "cryptojs/decrypt.js",
+      "hmac": "cryptojs/hmac.js",
+      "digest": "cryptojs/digest.js",
+      "encode": "cryptojs/encode.js",
+      "decode": "cryptojs/decode.js"
+    }
+  }
+}
