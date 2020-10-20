@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-crypto-js-plus",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Node-RED nodes using CryptoJS to encrypt and decrypt messages",
   "repository": {
     "type": "git",
