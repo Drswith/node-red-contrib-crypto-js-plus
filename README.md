@@ -23,6 +23,8 @@ Node-RED nodes using CryptoJS to encrypt and decrypt messages
 
 You can have access to this samples flows on `samples/flows.json` file.
 
+Note: User defined Secret Key can be overridden by sending a msg.secrectkey containing the key value you wish.
+
 # CryptoJS 
 > JavaScript library of crypto standards.
 

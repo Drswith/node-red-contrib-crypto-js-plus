@@ -9,6 +9,10 @@ module.exports = function (RED) {
 		node.key = config.key;
 
 		node.on('input', function (msg) {
+			// first check if secret key was sent via msg first. If true overwrite user entered secret key in configuration.
+			if(msg.secrectkey) {
+				node.key = msg.secrectkey;
+			}
 			// check configurations
 			if(!node.algorithm || !node.key) {
 				// rising misconfiguration error
