@@ -19,7 +19,7 @@ Node-RED nodes using CryptoJS to encrypt and decrypt messages
 
 
 # Sample Flows
-![SampleFlows](samples/flows.jpg)
+![SampleFlows](./samples/flows.jpg)
 
 You can have access to this samples flows on `samples/flows.json` file.
 
